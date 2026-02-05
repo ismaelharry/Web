@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Carrito | AMO Tequila</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-content">
+        <div class="logo">AMO Tequila</div>
+        <nav class="nav-links">
+          <a href="index.html">Inicio</a>
+          <a href="product.html">Producto</a>
+        </nav>
+        <a class="header-cta" href="#checkout">Finalizar compra</a>
+      </div>
+    </header>
+
+    <main class="cart-page">
+      <div class="container cart-grid">
+        <section class="cart-items">
+          <h1>Tu carrito</h1>
+          <div class="cart-item">
+            <div class="cart-image">AMO Tequila Reserva</div>
+            <div class="cart-details">
+              <h3>AMO Tequila Reserva 750 ml</h3>
+              <p>Edición premium · 100% agave azul</p>
+            </div>
+            <div class="cart-quantity">
+              <button type="button" class="qty-btn" data-action="decrease">-</button>
+              <input type="number" min="1" value="1" />
+              <button type="button" class="qty-btn" data-action="increase">+</button>
+            </div>
+            <div class="cart-price">$1,850 MXN</div>
+          </div>
+          <a class="button ghost" href="product.html">Seguir comprando</a>
+        </section>
+
+        <aside class="checkout-summary" id="checkout">
+          <h2>Checkout rápido</h2>
+          <div class="summary-line">
+            <span>Subtotal</span>
+            <span>$1,850 MXN</span>
+          </div>
+          <div class="summary-line">
+            <span>Envío</span>
+            <span>Gratis</span>
+          </div>
+          <div class="summary-line total">
+            <span>Total</span>
+            <span>$1,850 MXN</span>
+          </div>
+          <button class="button primary" type="button">Pagar ahora</button>
+          <p class="secure">Pago cifrado · Checkout seguro</p>
+
+          <div class="trust-list">
+            <div>
+              <h4>Entrega inmediata</h4>
+              <p>24/48h en empaque premium.</p>
+            </div>
+            <div>
+              <h4>Atención 24/7</h4>
+              <p>Equipo AMO para tu compra.</p>
+            </div>
+            <div>
+              <h4>Garantía premium</h4>
+              <p>Compra directa y asegurada.</p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="logo">AMO Tequila</div>
+          <p>Compra rápida y segura en la tienda oficial.</p>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Términos</a></li>
+            <li><a href="#">Privacidad</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contacto</h4>
+          <ul>
+            <li><a href="https://instagram.com/amo.tequila">Instagram @amo.tequila</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
